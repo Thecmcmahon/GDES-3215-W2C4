@@ -1,0 +1,32 @@
+nav {
+	background-color: #212121;
+	ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	}
+	@media screen and (min-width: 40em){
+		position: fixed;
+		right: 1em;
+		top: 50%;
+		transform: translateY(-50%);
+		background-color: transparent;
+	
+	}
+}
+
+
+
+@media screen and (min-width: 40em){
+	nav {
+		position: fixed;
+		right: 1em;
+		top: 50%;
+		transform: translateY(-50%);
+		background-color: transparent;
+	}
+}
+
+.selected {
+	background-color: yellow;
+}
